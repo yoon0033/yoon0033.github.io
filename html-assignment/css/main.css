@@ -7,3 +7,16 @@ body {
 header, footer {
     background-color: aqua;
 }
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* change list-style-type to square */
+div>ul {
+    list-style-type: square;
+}
+
+.hobbies li:nth-child(odd){
+    background: plum;
+}
