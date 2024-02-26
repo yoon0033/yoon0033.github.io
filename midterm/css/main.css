@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(77, 141, 141);
+}
+
+.wrapper {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 400px;
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+    border-right: 1px solid #333;
+    width: 100px;
+    text-align: center;
+}
+
+nav li:last-child {
+    border-right: none;
+}
