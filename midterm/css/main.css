@@ -18,11 +18,13 @@ body {
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     color: aliceblue;
     position: absolute;
     padding: 20px;
     text-align: center;
+    top: 120px;
+    left: 500px;
 }
 
 
