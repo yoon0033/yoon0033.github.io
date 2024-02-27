@@ -60,3 +60,11 @@ article img {
     display: block;
     clear: both;
 }
+
+.boxwrap {
+    white-space: pre-line;
+    border: 1px solid balck;
+    display: table;
+    width: 100%;
+}
+
