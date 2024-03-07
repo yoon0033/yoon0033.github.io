@@ -7,12 +7,13 @@ body {
     background-color: #aad4cf;
     line-height: 1.4;
     background-size: cover;
+    margin: auto;
 }
-
 
 .wrapper {
     background-color: rgb(200, 241, 233);
     width: 1024px;
+    margin: auto;
 }
 
 header h1 {
