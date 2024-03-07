@@ -7,14 +7,12 @@ body {
     background-color: #aad4cf;
     line-height: 1.4;
     background-size: cover;
-    margin: 0;
 }
 
 
 .wrapper {
     background-color: rgb(200, 241, 233);
     width: 1024px;
-    margin: auto;
 }
 
 header h1 {
@@ -30,8 +28,8 @@ header h1 {
 .wrap {
     position: relative;
     text-align: center;
+    margin: 10px;
 }
-
 
 header image {
     width: 1024px;
@@ -40,14 +38,12 @@ header image {
     position: relative;
 }
 
-
-
 nav li {
     text-transform: uppercase;
     display: inline-block;
     border-right: 2px solid #333;
     font-size: large;
-    width: 320px;
+    width: 310px;
     text-align: center;
 }
 
@@ -63,6 +59,10 @@ article img {
     margin: 1rem;
 }
 
+nav, section, article {
+    margin: 1rem;
+}
+
 .container::after {
     content: "";
     display: block;
@@ -71,7 +71,6 @@ article img {
 
 .fieldset {
     border: 1px solid black;
-    margin: 10px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -90,4 +89,8 @@ textarea {
 
 footer {
     text-align: right;
+}
+
+nav, footer, section {
+    margin: 10px;
 }
