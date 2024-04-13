@@ -1,18 +1,171 @@
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+}
+
+/* 공통 스타일 */
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
-/* mobile screen style */
-.container {
+.wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-
+    padding: 20px;
 }
 
-/* desktop screen style */
+nav ul {
+    list-style: none;
+    padding-left: 0%;
+    font-size: 1.5rem;
+}
+
+.wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+
+.wrap1 {
+    position: relative;
+}
+
+.wrap1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrap2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.wrap2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.wrap2 a {
+    display: inline-block;
+    background-color: gold;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.wrap2 a:hover {
+    background-color: goldenrod;
+}
+
+
 @media screen and (min-width: 760px) {
-    .container {
+    .wrapper {
+        padding: 20px 50px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    .wrapper img {
+        width: 150px;
+    }
+
+    .wrap {
+        background-color: black;
+    }
+
+    .wrap1 {
+        position: relative;
+    }
+    
+    .wrap1 img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .wrap2 {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%)
+    }
+
+    .wrap2 h1 {
+        font-size: 60px;
+    }
+    
+    .wrap2 p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: calc(100% - 40px); /* 왼쪽 여백과 오른쪽 여백의 합 */
+    }
+
+    .wrap2 {
 
     }
+    
+
+    .wrap2 a {
+        display: inline-block;
+        background-color: gold;
+        color: #000;
+        padding: 15px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .wrap2 a:hover {
+        background-color: goldenrod;
+    }
+
+    
+
+    .footer-box{
+        background-color: black;
+        font-size: 0.8rem;
+        color: #c78c06;
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+ 
 }
+
+
