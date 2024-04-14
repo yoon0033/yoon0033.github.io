@@ -170,7 +170,6 @@ body {
 .services1 {
     background-color: #ffe6ac; /* 박스의 배경색을 지정합니다. */
     border: none; /* 박스의 테두리를 지정합니다. */
-    padding: 20px; /* 박스의 내부 여백을 지정합니다. */
     margin-bottom: 20px;
 }
 
@@ -192,6 +191,11 @@ body {
 
 .services1 h3 {
     font-size: 2rem;
+    margin-left: 10px;
+}
+
+.services1 p {
+    margin-left: 10px;
 }
 
 .digital button {
@@ -200,6 +204,8 @@ body {
     border: none; /* 테두리를 없앱니다. */
     padding: 30px 30px; /* 내부 여백을 추가합니다. */
     font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -208,7 +214,6 @@ body {
 .services2 {
     background-color: #ffe6ac; /* 박스의 배경색을 지정합니다. */
     border: none; /* 박스의 테두리를 지정합니다. */
-    padding: 20px; /* 박스의 내부 여백을 지정합니다. */
     margin-bottom: 20px;
 }
 
@@ -220,6 +225,11 @@ body {
 
 .marketing h3 {
    font-size: 2rem;
+   margin-left: 10px;
+}
+
+.marketing p {
+    margin-left: 10px;
 }
 
 .marketing button {
@@ -228,13 +238,14 @@ body {
     border: none; /* 테두리를 없앱니다. */
     padding: 30px 30px; /* 내부 여백을 추가합니다. */
     font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 /* Video Production 조정 */
 .services3 {
     background-color: #ffe6ac; /* 박스의 배경색을 지정합니다. */
     border: none; /* 박스의 테두리를 지정합니다. */
-    padding: 20px; /* 박스의 내부 여백을 지정합니다. */
     margin-bottom: 20px;
 }
 
@@ -246,6 +257,11 @@ body {
 
 .video h3 {
    font-size: 2rem;
+   margin-left: 10px;
+}
+
+.video p {
+    margin-left: 10px;
 }
 
 .video button {
@@ -254,13 +270,14 @@ body {
     border: none; /* 테두리를 없앱니다. */
     padding: 30px 30px; /* 내부 여백을 추가합니다. */
     font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 /* Web Development 조정 */
 .services4 {
     background-color: #ffe6ac; /* 박스의 배경색을 지정합니다. */
     border: none; /* 박스의 테두리를 지정합니다. */
-    padding: 20px; /* 박스의 내부 여백을 지정합니다. */
     margin-bottom: 20px;
 }
 
@@ -272,6 +289,11 @@ body {
 
 .web h3 {
    font-size: 2rem;
+   margin-left: 10px;
+}
+
+.web p {
+    margin-left: 10px;
 }
 
 .web button {
@@ -280,13 +302,14 @@ body {
     border: none; /* 테두리를 없앱니다. */
     padding: 30px 30px; /* 내부 여백을 추가합니다. */
     font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 /* Print 조정 */
 .services5 {
     background-color: #ffe6ac; /* 박스의 배경색을 지정합니다. */
     border: none; /* 박스의 테두리를 지정합니다. */
-    padding: 20px; /* 박스의 내부 여백을 지정합니다. */
     margin-bottom: 20px;
 }
 
@@ -298,6 +321,11 @@ body {
 
 .print h3 {
    font-size: 2rem;
+   margin-left: 10px;
+}
+
+.print p {
+    margin-left: 10px;
 }
 
 .print button {
@@ -306,6 +334,8 @@ body {
     border: none; /* 테두리를 없앱니다. */
     padding: 30px 30px; /* 내부 여백을 추가합니다. */
     font-size: 1rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 
