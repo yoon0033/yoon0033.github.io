@@ -903,7 +903,14 @@ button[type="submit"] {
     .team-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "image1 text1"
+        "text2 image2"; /* 그리드 영역 이름을 지정 */
     }
+
+   
+      
     
 
     /* Our Team-John Doe */
