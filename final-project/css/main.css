@@ -21,9 +21,10 @@ body {
     background-color: #222;
 }
 
-.wrap img {
-    margin-left: 30px;
-    margin-top: 30px;
+.wrap ul img {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
 }
 
 
@@ -172,7 +173,7 @@ li:hover {
 }
 
 
-/* gird 사용해서 */
+/* gird */
 .services-container {
     grid-template-columns: 1fr; 
   }
@@ -351,9 +352,29 @@ li:hover {
 
 
 /* Our Vision */
-.vision-image {
-    background-image: cover;
+
+.vision-image{
+    width: 100%;
+    height: 100%;
 }
+.vision {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    border: 10px;
+    padding: 10px;
+    left: auto;
+    right: auto;
+    justify-content: center;
+    color: white;
+
+}
+
+.section-vision {
+    position: relative;
+}
+
+
 
 
 
@@ -543,8 +564,6 @@ button[type="submit"] {
 
 }
 
-
-
 .footer-box{
     background-color: #222;
     font-size: 0.8rem;
@@ -555,115 +574,18 @@ button[type="submit"] {
 }
 
 
-
-/* mobile version */
 @media screen and (min-width: 760px) {
-    
-    .wrap img {
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-    
-    
-    .wrap ul li {
-        display: block;
-        float: left;
-        width: 10%;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    
-    .wrap ul li a{
-        text-decoration: none;
-        color: #c78c06;
-        line-height: 3;
-        font-size: 22px;
-    }
-    
-  
-    
-    .wrap li input {
-        width: calc(90% - 80px); 
-        padding: 10px; 
-        padding-left: 5px;
-        border: 1px solid white; 
-        background-color: #fff; 
-        color: #333; 
-        font-size: 20px; 
-        display: inline-block;
-        margin-bottom: 10px;
-    }
-    
-    .wrapper img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .wrapper ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .wrapper ul li {
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-    
-    
-    
-    .wrap1 {
-        position: relative;
-    }
-    
-    .wrap1 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .box {
-        width: 650px;
-        height: 400px;
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
-        background-color: rgba(0, 0, 0, 0.5); 
-        color: white;
-        
-        max-width: 100% 
-    }
-    
-    .box h1 {
-        font-size: 4rem 
-    }
-    
-    .box p {
-        font-size: 1rem; 
-        text-align: left; 
-    }
-    
-    .box a {
-        background-color: #c78c06; 
-        color: #222; 
-        padding: 25px 25px; 
-        text-align: center; 
-        text-decoration: none; 
-        display: inline-block; 
-        position: absolute;
-    }
-    
-    /* About us */
 
-    
-   
-    
-    /* Our Services */
-    .our-services h2 {
-        font-size: 3rem;
-        margin-bottom: 10px;
+    .wrap ul{
+        display: flex;
+        padding: 15px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .wrap ul li{
+        padding-right: 30px;
     }
 
     .services-container {
@@ -674,123 +596,11 @@ button[type="submit"] {
         grid-template-rows: auto;
       }
 
-    
-    
-    
-    /* Our Team */
-    .our-team h2 {
-        font-size: 3rem;
-        margin-bottom: 5px;
-    }
-
-    .team-container {
+      .team-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
 
-    /* Our Team-John Doe */
-    .box2 {
-        background-color: #ffe6ac; 
-        border: none; 
-        margin-bottom: 20px;
-    }
-    
-    .box2 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-
-    
-    .john p {
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-    
-    /* Our Team-Bob Rite */
-
-    .box3 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    .bob p {
-        margin-left: 10px;
-        margin-bottom: 20px;
-    }
-    
-    /* Our Vision */
-    .vision h3 {
-        font-size: 2rem;
-    }
-    
-    .vision p {
-        margin-top: 0;
-    }
-    
-    
-    /* Contact Us  */
-    .contact-us h2 {
-        font-size: 3rem;
-        margin-bottom: 10px;
-    }
-    
-
-  
-    .form div {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
-        width: flex;
-    }
-    
-    .message form div p {
-        margin-bottom: 5px;
-        line-height: 1;
-    }
-    
-    .form div label {
-        width: 100px;
-    }
-    
-    
-    
-    
-    /* Hours of operation table */
-    .operation h3 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
-    
-
-    .table table {
-        border-collapse: collapse;
-        width: 100%;
-    }
-    
-
-    
-    .location {
-        width: 100%;
-        max-width: 760px;
-        margin: 0 auto;
-        text-align: left;
-    }
-    
-    .location iframe {
-        width: 100%;
-        height: 450px;
-    }
-    
-    .location h3 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    
-    }
-    
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr; 
@@ -821,5 +631,9 @@ button[type="submit"] {
         height: 100%; 
         border: none;
       }
-    
+
+
+
+
 }
+
