@@ -62,11 +62,11 @@ li:hover {
     border: 2px solid #c78c06;
     color: #c78c06; 
     padding: 10px 10px; 
-    text-align: center; 
+    text-align: center;
     text-decoration: none; 
     display: inline-block; 
     margin-left: 10px; 
-    cursor: pointer;
+    cursor: pointer; 
     position: absolute;
     margin-bottom: 10px;
 }
@@ -143,7 +143,7 @@ li:hover {
 
 .section-about img {
     width: 100%; 
-    height: auto; 
+    height: auto;
     display: block; 
     margin-bottom: 20px; 
 }
@@ -172,7 +172,7 @@ li:hover {
 }
 
 
-/* gird */
+/* gird 사용해서 */
 .services-container {
     grid-template-columns: 1fr; 
   }
@@ -223,7 +223,7 @@ li:hover {
 /* Marketing */
 .services2 {
     background-color: #ffe6ac; 
-    border: none; 
+    border: none; /
     margin-bottom: 20px;
 }
 
@@ -362,14 +362,6 @@ li:hover {
     font-size: 3rem;
     margin-bottom: 5px;
 }
-
-.box2, .box3 {
-    grid-template-columns: 1fr; /* 모바일 화면에서는 한 열로 */
-  }
-
-  .team-image, .team2-image, .john, .bob {
-    grid-column: 1; /* 모든 아이템을 첫 번째 열에 배치 */
-  }
 
 /* Our Team-John Doe */
 .box2 {
@@ -602,21 +594,6 @@ button[type="submit"] {
         margin-bottom: 10px;
     }
     
-    .wrap li button {
-        background-color: #222; 
-        border: 2px solid #c78c06;
-        color: #c78c06; 
-        padding: 10px 10px; 
-        text-align: center; 
-        text-decoration: none;
-        display: inline-block; 
-        margin-left: 10px; 
-        cursor: pointer; 
-        position: absolute;
-        margin-bottom: 10px;
-    }
-    
-    
     .wrapper img {
         max-width: 100%;
         height: auto;
@@ -679,32 +656,7 @@ button[type="submit"] {
     }
     
     /* About us */
-    .section-about {
-        background-color: #ffe6ac; 
-        padding: 20px; 
-    }
-    
-    .section-about img {
-        width: 100%; 
-        height: auto;
-        display: block; 
-        margin-bottom: 20px; 
-    }
-    
-    .section-about .about {
-        color: black; 
-    }
-    
-    .section-about h2 {
-        font-size: 3rem; 
-        margin-bottom: 10px; 
-    }
-    
-    .section-about p {
-        font-size: 1rem; 
-        line-height: 1.5; 
-        margin-bottom: 10px; 
-    }
+
     
    
     
@@ -722,183 +674,6 @@ button[type="submit"] {
         grid-template-rows: auto;
       }
 
-
-      
-    
-    /* Digital Transformation */
-    .services1 {
-        background-color: #ffe6ac; 
-        border: none; 
-        margin-bottom: 20px;
-    }
-    
-    .services1 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .digital-image {
-        width: 100%;
-    }
-    
-    .digital-image img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .services1 h3 {
-        font-size: 2rem;
-        margin-left: 10px;
-    }
-    
-    .services1 p {
-        margin-left: 10px;
-    }
-    
-    .digital button {
-        background-color: #222; 
-        color: white; 
-        border: none;
-        padding: 30px 30px;
-        font-size: 1rem;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-    
-    /* Marketing */
-    .services2 {
-        background-color: #ffe6ac; 
-        border: none; 
-        margin-bottom: 20px;
-    }
-    
-    .services2 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .marketing h3 {
-       font-size: 2rem;
-       margin-left: 10px;
-    }
-    
-    .marketing p {
-        margin-left: 10px;
-    }
-    
-    .marketing button {
-        background-color: #222; /* 버튼의 배경색을 검은색으로 설정합니다. */
-        color: white; /* 버튼의 글자색을 흰색으로 설정합니다. */
-        border: none; /* 테두리를 없앱니다. */
-        padding: 30px 30px; /* 내부 여백을 추가합니다. */
-        font-size: 1rem;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-    
-    /* Video Production 조정 */
-    .services3 {
-        background-color: #ffe6ac; /* 박스의 배경색을 지정합니다. */
-        border: none; /* 박스의 테두리를 지정합니다. */
-        margin-bottom: 20px;
-    }
-    
-    .services3 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .video h3 {
-       font-size: 2rem;
-       margin-left: 10px;
-    }
-    
-    .video p {
-        margin-left: 10px;
-    }
-    
-    .video button {
-        background-color: #222; 
-        color: white; 
-        border: none; 
-        padding: 30px 30px; 
-        font-size: 1rem;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-    
-    /* Web Development */
-    .services4 {
-        background-color: #ffe6ac; 
-        border: none; 
-        margin-bottom: 20px;
-    }
-    
-    .services4 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .web h3 {
-       font-size: 2rem;
-       margin-left: 10px;
-    }
-    
-    .web p {
-        margin-left: 10px;
-    }
-    
-    .web button {
-        background-color: #222; 
-        color: white; 
-        border: none; 
-        padding: 30px 30px; 
-        font-size: 1rem;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-    
-    /* Print */
-    .services5 {
-        background-color: #ffe6ac; 
-        border: none; 
-        margin-bottom: 20px;
-    }
-    
-    .services5 img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-    
-    .print h3 {
-       font-size: 2rem;
-       margin-left: 10px;
-    }
-    
-    .print p {
-        margin-left: 10px;
-    }
-    
-    .print button {
-        background-color: #222; 
-        color: white; 
-        border: none; 
-        padding: 30px 30px; 
-        font-size: 1rem;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-    
-    
-    
-    /* Our Vision */
-    
     
     
     
@@ -910,9 +685,8 @@ button[type="submit"] {
 
     .team-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-      }
-      
+        grid-template-columns: 1fr 1fr;
+    }
     
 
     /* Our Team-John Doe */
@@ -928,21 +702,7 @@ button[type="submit"] {
         display: block;
     }
     
-    .john h3 {
-        font-size: 2rem;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 0;
-    }
-    
-    .john h4 {
-        margin-left: 10px;
-        margin-top: 0;
-        border-bottom: 2px solid #c78c06;
-        display: inline-block;
-        width: calc(100% - 20px);
-        margin: 0 10px;
-    }
+
     
     .john p {
         margin-left: 10px;
@@ -950,34 +710,13 @@ button[type="submit"] {
     }
     
     /* Our Team-Bob Rite */
-    .box3 {
-        background-color: #ffe6ac; 
-        border: none; 
-        margin-bottom: 20px;
-    }
-    
+
     .box3 img {
         width: 100%;
         height: auto;
         display: block;
     }
-    
-    .bob h3 {
-        font-size: 2rem;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 0;
-    }
-    
-    .bob h4 {
-        margin-left: 10px;
-        margin-top: 0;
-        border-bottom: 2px solid #c78c06;
-        display: inline-block;
-        width: calc(100% - 20px);
-        margin: 0 10px;
-    }
-    
+
     .bob p {
         margin-left: 10px;
         margin-bottom: 20px;
@@ -992,15 +731,6 @@ button[type="submit"] {
         margin-top: 0;
     }
     
-    .vision button {
-        background-color: #222; 
-        color: white; 
-        border: 2px solid #c78c06;
-        padding: 30px 30px; 
-        font-size: 20px; 
-    }
-    
-    
     
     /* Contact Us  */
     .contact-us h2 {
@@ -1008,13 +738,7 @@ button[type="submit"] {
         margin-bottom: 10px;
     }
     
-    .message h3 {
-        font-size: 2rem;
-        margin-bottom: 3px;
-    }
-    
-    
-    
+
   
     .form div {
         display: flex;
@@ -1032,22 +756,6 @@ button[type="submit"] {
         width: 100px;
     }
     
-    textarea {
-        height: 150px;
-        box-sizing: border-box;
-        resize: none;
-        display: flex;
-        width: 100%;
-    }
-    
-    button[type="submit"] {
-        background-color: #222;
-        color: #c78c06;
-        font-size: 1.2rem;
-        padding: 5px 5px;
-        border: none;
-        cursor: pointer;
-    }
     
     
     
@@ -1063,31 +771,7 @@ button[type="submit"] {
         width: 100%;
     }
     
- 
-    .table th {
-        border: 1px solid black;
-        padding: 18px;
-        text-align: center;
-        font-weight: normal;
-    }
-    
- 
-    .table td {
-        border: 1px solid black;
-        padding: 18px;
-        font-weight: normal;
-    }
-    
-    .table th:first-child,
-    .table th:last-child {
-        text-align: center;
-    }
-    
 
-    .table th {
-        background-color: #ffe6ac;
-        color: black;
-    }
     
     .location {
         width: 100%;
@@ -1107,7 +791,6 @@ button[type="submit"] {
     
     }
     
-
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr; 
@@ -1138,18 +821,5 @@ button[type="submit"] {
         height: 100%; 
         border: none;
       }
-      
-
-    .footer-box{
-        background-color: #222;
-        font-size: 0.8rem;
-        color: #c78c06;
-        padding: 15px;
-        margin-top: 15px;
-        margin-bottom: 0%;
-    }
-
-
-
-
+    
 }
