@@ -453,6 +453,12 @@ li:hover {
 }
 
 /* Our Vision */
+
+.vision-image {
+    display: flex;
+    flex-direction: column;
+}
+
 .vision h3 {
     font-size: 2rem;
 }
@@ -599,18 +605,43 @@ button[type="submit"] {
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
       }
+
+    .vision-image {
+        display: flex;
+        flex-direction: column;
+    }
    
     .team-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; 
+      }
+    
+     
+      
+
+    .team-container > .team-image {
+        grid-area: g1;
     }
+    .team-container > .john{
+        grid-area: g2;
+    }
+    .team-container > .bob {
+        grid-area: g3;
+    }
+    .team-container > .team2-image {
+        grid-area: g4;
+    }
+
 
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        grid-template-rows: minmax(500px, auto) auto; 
         grid-gap: 20px; 
       }
+
+
+
+
       
       .message, .location {
         grid-row: 1; 
