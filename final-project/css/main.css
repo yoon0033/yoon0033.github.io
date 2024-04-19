@@ -490,7 +490,6 @@ li:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    width: flex;
 }
 
 .message form div p {
