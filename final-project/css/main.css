@@ -375,9 +375,6 @@ li:hover {
 }
 
 
-
-
-
 /* Our Team */
 .our-team h2 {
     font-size: 3rem;
@@ -600,7 +597,7 @@ button[type="submit"] {
         grid-column-gap: 20px;
       }
 
-      .services-container2 {
+    .services-container2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 20px;
@@ -615,32 +612,12 @@ button[type="submit"] {
         display: grid;
         grid-template-columns: 1fr 1fr; 
       }
-    
-     
-      
-
-    .team-container > .team-image {
-        grid-area: g1;
-    }
-    .team-container > .john{
-        grid-area: g2;
-    }
-    .team-container > .bob {
-        grid-area: g3;
-    }
-    .team-container > .team2-image {
-        grid-area: g4;
-    }
-
 
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr; 
         grid-gap: 20px; 
       }
-
-
-
 
       
       .message, .location {
