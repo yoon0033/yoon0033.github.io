@@ -363,6 +363,14 @@ li:hover {
     margin-bottom: 5px;
 }
 
+.box2, .box3 {
+    grid-template-columns: 1fr; /* 모바일 화면에서는 한 열로 */
+  }
+
+  .team-image, .team2-image, .john, .bob {
+    grid-column: 1; /* 모든 아이템을 첫 번째 열에 배치 */
+  }
+
 /* Our Team-John Doe */
 .box2 {
     background-color: #ffe6ac; 
@@ -902,14 +910,8 @@ button[type="submit"] {
 
     .team-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        grid-template-areas: 
-        "image1 text1"
-        "text2 image2"; /* 그리드 영역 이름을 지정 */
-    }
-
-   
+        grid-template-columns: repeat(2, 1fr); 
+      }
       
     
 
