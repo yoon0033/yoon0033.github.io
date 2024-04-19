@@ -2,6 +2,10 @@
     max-width: 1200px;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* common style */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -484,7 +488,6 @@ li:hover {
     font-size: 2rem;
     margin-bottom: 3px;
 }
-
 
 .form div {
     display: flex;
