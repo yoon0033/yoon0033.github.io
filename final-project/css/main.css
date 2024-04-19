@@ -590,13 +590,17 @@ button[type="submit"] {
 
     .services-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 20px; 
-        grid-row-gap: 20px;
-        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
       }
 
-      .team-container {
+      .services-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+      }
+   
+    .team-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
